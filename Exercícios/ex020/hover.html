@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto oculto</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        span{
+            color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temos um texto oculto</h1>
+    <div>
+        Olá!
+        <p>Eu estava escondido!!!!</p>
+    </div>
+    <p>fim do exemplo</p>
+    <a href="pseudoclasse.html" rel="next" target="_self"><span>Voltar</span></a>
+</body>
+</html>

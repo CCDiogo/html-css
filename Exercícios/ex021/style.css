@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(216, 204, 155);
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Inicio Header*/
+header{
+    background-color: rgb(172, 122, 51);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px 0px;
+}
+header >h1{
+    color: rgb(225, 210, 188);
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(254, 175, 28);
+    padding: 3px;
+    text-align: center;
+    box-shadow: 5px 3px 7px 5px #00000057
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 30px;
+    color: rgb(255, 238, 212);
+    
+}
+nav >a:hover{
+    outline: 3px solid rgb(59, 44, 0);
+    text-decoration: underline;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.062);
+}
+    /*Fim do header*/
+main{
+    border-radius: 6px;
+    background-color: rgb(255, 233, 195);
+    margin: 20px 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 6px rgba(0, 0, 0, 0.062);
+}
+article{
+    background-color: rgba(206, 134, 10, 0.558);
+    text-align: justify;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 6px;
+    box-shadow: 5px 3px 5px 6px rgb(0 0 0 / 18%);
+}
+article > h2{
+    color: rgb(122, 105, 81);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+article >aside{
+    background-color: rgb(42, 29, 0);
+    text-align: right;
+    color: blanchedalmond;
+    width: 400px;
+}
+article >aside:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer{
+    font-family: monospace;
+    font-weight: bolder;
+     background-color: rgb(42, 29, 0);
+    text-align: center;
+    color: blanchedalmond;
+    padding: 15px;
+    margin: 0px;
+    font-size: 2em;
+}
+footer:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer > p{
+    margin: 0px;
+}

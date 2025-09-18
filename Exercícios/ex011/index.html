@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Experimente abrir esse site em varios dispositivos ou apenas explore aumentar e diminuir o seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1500px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="fotão">
+    </picture>
+    <h1>E os audios? vamos ver como funciona?</h1>
+    <p>Quer curtir uma sonzera?</p>
+    <audio controls preload="metadata">
+        <source src="midias/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/mpeg">
+        <p>Seu navegador nao carrega esse audio</p>
+        <!--Importante lembrar que se for necessario temos outras formas de audio como OGG e WAV. Bom evitar WAV e também que o código tenta carregar de cima para baixo, então se a sequencia for mp3, ogg e wav, ele seguirá essa ordem.-->
+    
+    </audio>
+    <br>
+    <p>Podcast guanacast ep 33</p>
+    <audio controls preload="metadata">
+        <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador nao carrega esse audio</p>
+    </audio>
+    
+</body>
+</html>
