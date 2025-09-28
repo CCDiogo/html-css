@@ -1,1 +1,0 @@
-Você ainda n sabe mexer com isso

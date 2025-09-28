@@ -1,0 +1,1 @@
+O ex005 está dentro do ex002 conforme o curso foi passado, porém no repositório está diferente.
